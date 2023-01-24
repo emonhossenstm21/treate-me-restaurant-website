@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'segoe ui';
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+}
+
+.nav>.nav-links>a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+
+/*
+=============================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+about hero section start here
+/////////////////////////////
+=============================
+*/
+.about-hero {
+    background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, .8)), url('../img/thanku-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.flex {
+    position: absolute;
+    top: 280px;
+    left: 300px;
+    text-align: center;
+}
+
+.about-hero h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*
+===========================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+about hero section end here
+///////////////////////////
+===========================
+*/
+
+
+
+
+
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    foooter section start here
+////////////////////////////////////
+=======================================
+*/
+
+footer {
+    background: #141313;
+    color: #fff;
+}
+
+.footer-container {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.footer-brand {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.footer-brand p {
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+
+.footer-icon i {
+    font-size: 20px;
+    background: #201F1F;
+    color: #fff;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #999;
+}
+
+.opening-hour {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.opening-day {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.opening-day .day {
+    flex: 1;
+}
+
+.opening-day .time {
+    flex: 1;
+}
+
+.newsletter {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.instagram {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.instagram .footer-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.instagram .footer-img img {
+    width: 100%;
+}
+
+.footer-img-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-img-1 img {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.newsletter form .email {
+    margin-bottom: 5px;
+}
+
+.newsletter form .email input {
+    width: 100%;
+    background: #2C2B2B;
+    text-align: center;
+    color: #ccc;
+    border-radius: 2px;
+    padding: 18px;
+    border: 1px solid #2C2B2B;
+}
+
+.newsletter form .email input::placeholder {
+    color: #8e8e8e;
+    font-size: 16px;
+}
+
+.newsletter form .subscribe input {
+    width: 100%;
+    padding: 18px;
+    background: #F34D4D;
+    color: #efefef;
+    border: 1px solid #F34D4D;
+    transition: all 0.5s linear;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.newsletter form .subscribe input:hover {
+    background: transparent;
+    border: 1px solid #F34D4D;
+    color: #F34D4D;
+}
+
+.copy-right {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.copy-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8e8e8e;
+}
+
+.copy-right a {
+    color: #cecece;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    font-style: italic;
+}
+
+.copy-right a:hover {
+    color: #F34D4D;
+}
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    foooter section end here
+////////////////////////////////////
+=======================================
+*/
+
+
+
+
+
+
+/*
+=====================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=====================================
+mobile responsive section start here
+=====================================
+/////////////////////////////////////
+=====================================
+*/
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: #333;
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+    .about-hero {
+        background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, .8)), url('../img/thanku-bg.jpg');
+        background-position-x: 0%, 0%;
+        background-position-y: 0%, 0%;
+        background-repeat: repeat, repeat;
+        background-size: auto, auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 60vh;
+        position: relative;
+    }
+
+    .flex {
+        position: absolute;
+        top: 120px;
+        text-align: center;
+    }
+
+
+    .about-hero p {
+        font-size: 18px;
+        color: #fff;
+        line-height: 30px;
+        font-weight: 400;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .footer-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .instagram {
+        flex: 1;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .copy-right {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .footer-container h3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-brand p {
+        margin-bottom: 10px;
+        padding-right: 20px;
+    }
+
+    .footer-icon i {
+        font-size: 20px;
+        background: #201F1F;
+        color: #fff;
+        margin-right: 5px;
+        padding: 8px 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+}

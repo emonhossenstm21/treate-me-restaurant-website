@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'segoe ui';
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-title a {
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    color: #efefef;
+    margin-left: 1px;
+    transition: all 0.7s linear;
+}
+
+.nav>.nav-links>a:hover {
+    background-color: rgb(243, 77, 77);
+}
+
+.nav>#nav-check {
+    display: none;
+}
+
+
+/*
+=============================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+about hero section start here
+/////////////////////////////
+=============================
+*/
+.about-hero {
+    background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, .5)), url('../img/photo-gallary/img-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.about-hero h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.about-hero a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+/*
+===========================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+about hero section end here
+///////////////////////////
+===========================
+*/
+
+
+/* 
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+   menu section css start here
+////////////////////////////////////
+=======================================
+*/
+
+.recipe-item-name {
+    text-align: center;
+}
+
+.recipe-item-name h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.menu-item-1 {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.container-item {
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.recipe-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-bottom: 1px dashed #3b3b3b;
+    transition: all 0.4s linear;
+}
+
+.recipe-item:hover {
+    background: rgba(0, 0, 0, 0.866);
+
+}
+
+.recipe-item img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.recipe-item-img {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.recipe-item-content {
+    flex: 2.5;
+    flex-wrap: wrap;
+}
+
+.recipe-item-content p {
+    font-size: 18px;
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.recipe-item-content span {
+    font-size: 18px;
+    font-weight: normal;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.recipe-item-price {
+    align-self: start;
+}
+
+.recipe-item-price h6 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.recipe .recipe-item:hover p {
+    color: #eee;
+}
+
+.recipe .recipe-item:hover h6 {
+    color: #F34D4D;
+}
+
+.recipe .recipe-item:hover span {
+    color: #F34D4D;
+}
+
+.menu-item-2 {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+.menu-btn {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.menu-btn a {
+    padding: 16px 34px;
+    color: #ffffff;
+    background: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 1.9px solid #000;
+    transition: all 0.5s linear;
+    font-weight: bold;
+}
+
+.menu-btn a:hover {
+    background: transparent;
+    border: 1.9px solid #000;
+    color: #000;
+}
+
+/* 
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    menu section end css here
+////////////////////////////////////
+=======================================
+*/
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    foooter section start here
+////////////////////////////////////
+=======================================
+*/
+
+footer {
+    background: #141313;
+    color: #fff;
+}
+
+.footer-container {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.footer-brand {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.footer-brand p {
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+
+.footer-icon i {
+    font-size: 20px;
+    background: #201F1F;
+    color: #fff;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #999;
+}
+
+.opening-hour {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.opening-day {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.opening-day .day {
+    flex: 1;
+}
+
+.opening-day .time {
+    flex: 1;
+}
+
+.newsletter {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.instagram {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+
+.instagram .footer-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+}
+.instagram .footer-img img {
+    width: 100%;
+    height: 20vh;
+}
+
+.footer-img-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img-1 img {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.newsletter form .email {
+    margin-bottom: 5px;
+}
+
+.newsletter form .email input {
+    width: 100%;
+    background: #2C2B2B;
+    text-align: center;
+    color: #ccc;
+    border-radius: 2px;
+    padding: 18px;
+    border: 1px solid #2C2B2B;
+}
+
+.newsletter form .email input::placeholder {
+    color: #8e8e8e;
+    font-size: 16px;
+}
+
+.newsletter form .subscribe input {
+    width: 100%;
+    padding: 18px;
+    background: #F34D4D;
+    color: #efefef;
+    border: 1px solid #F34D4D;
+    transition: all 0.5s linear;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.newsletter form .subscribe input:hover {
+    background: transparent;
+    border: 1px solid #F34D4D;
+    color: #F34D4D;
+}
+
+.copy-right {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.copy-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8e8e8e;
+}
+
+.copy-right a {
+    color: #cecece;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    font-style: italic;
+}
+
+.copy-right a:hover {
+    color: #F34D4D;
+}
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    foooter section end here
+////////////////////////////////////
+=======================================
+*/
+
+
+/*
+=====================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=====================================
+mobile responsive section start here
+=====================================
+/////////////////////////////////////
+=====================================
+*/
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #000000;
+        position: relative;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+        text-align: center;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+    .about-hero {
+        background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, .5)), url('../img/photo-gallary/img-7.jpg');
+        background-position-x: 0%, 0%;
+        background-position-y: 0%, 0%;
+        background-repeat: repeat, repeat;
+        background-size: auto, auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: none;
+        background-size: cover;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+
+    .menu-item-1 {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: start;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-direction: column;
+    }
+
+    .menu-item-2 {
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+    .footer-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .instagram {
+        flex: 1;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    
+
+    .copy-right {
+        text-align: center;
+        padding-bottom: 30px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .footer-container h3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-brand p {
+        margin-bottom: 10px;
+        padding-right: 20px;
+    }
+
+    .footer-icon i {
+        font-size: 20px;
+        background: #201F1F;
+        color: #fff;
+        margin-right: 5px;
+        padding: 8px 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+}

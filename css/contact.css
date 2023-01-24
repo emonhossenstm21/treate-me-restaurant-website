@@ -1,0 +1,618 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'segoe ui';
+}
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    header section start here
+////////////////////////////////////
+=======================================
+*/
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-title a {
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav>.nav-header {
+    display: inline;
+}
+
+.nav>.nav-header>.nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+
+.nav>.nav-btn {
+    display: none;
+}
+
+.nav>.nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+}
+
+.nav>.nav-links>a {
+    display: inline-block;
+    padding: 13px 20px 13px 20px;
+    text-decoration: none;
+    color: #efefef;
+    margin-left: 1px;
+    transition: all 0.7s linear;
+}
+
+.nav>.nav-links>a:hover {
+    background-color: rgb(243, 77, 77);
+}
+
+.nav>#nav-check {
+    display: none;
+}
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    header section end here
+////////////////////////////////////
+=======================================
+*/
+/*
+=============================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+about hero section start here
+/////////////////////////////
+=============================
+*/
+.about-hero {
+    background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, .5)), url('../img/photo-gallary/img-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.about-hero h2 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.about-hero a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+/*
+===========================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\
+about hero section end here
+///////////////////////////
+===========================
+*/
+
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Contact Information section start here
+////////////////////////////////////
+=======================================
+*/
+.information-container {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #FAFAFA;
+}
+
+.information-container h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    line-height: 40px;
+}
+
+.contact-information {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.information-item {
+    flex: 1;
+    flex-wrap: wrap;
+    background: #ffffff;
+    padding-bottom: 100px;
+    padding: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.information-item span {
+    font-size: 20px;
+    color: #8e8e8e;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.information-item p {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+
+/* ========================== */
+.contact-us {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.map-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.map {
+    flex: 1;
+}
+
+.form {
+    flex: 1;
+}
+
+.form h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+form input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #E5E5E5;
+    color: #0e0e0e;
+    font-size: 18px;
+}
+
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #E5E5E5;
+    color: #0e0e0e;
+    font-size: 18px;
+}
+
+.form-btn input {
+    width: 35%;
+    background: #F34D4D;
+    border: 1px solid #F34D4D;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.5s linear;
+}
+
+.form-btn input:hover {
+    background: transparent;
+    border: 1px solid #F34D4D;
+    color: #F34D4D;
+}
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+Contact Information section end here
+////////////////////////////////////
+=======================================
+*/
+
+
+
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    foooter section start here
+////////////////////////////////////
+=======================================
+*/
+
+footer {
+    background: #141313;
+    color: #fff;
+}
+
+.footer-container {
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
+
+.footer-brand {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.footer-brand p {
+    margin-bottom: 40px;
+    padding-right: 20px;
+}
+
+.footer-icon i {
+    font-size: 20px;
+    background: #201F1F;
+    color: #fff;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.footer-container h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #999;
+}
+
+.opening-hour {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.opening-day {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.opening-day .day {
+    flex: 1;
+}
+
+.opening-day .time {
+    flex: 1;
+}
+
+.newsletter {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.instagram {
+    flex: 1;
+    flex-wrap: wrap;
+}
+.footer-img-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-img-1 img {
+    flex: 1;
+    flex-wrap: wrap;
+}
+.instagram .footer-img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    flex-direction: column;
+}
+.instagram .footer-img img {
+    width: 100%;
+    height: 20vh;
+}
+.newsletter form .email {
+    margin-bottom: 5px;
+}
+
+.newsletter form .email input {
+    width: 100%;
+    background: #2C2B2B;
+    text-align: center;
+    color: #ccc;
+    border-radius: 2px;
+    padding: 18px;
+    border: 1px solid #2C2B2B;
+}
+
+.newsletter form .email input::placeholder {
+    color: #8e8e8e;
+    font-size: 16px;
+}
+
+.newsletter form .subscribe input {
+    width: 100%;
+    padding: 18px;
+    background: #F34D4D;
+    color: #efefef;
+    border: 1px solid #F34D4D;
+    transition: all 0.5s linear;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.newsletter form .subscribe input:hover {
+    background: transparent;
+    border: 1px solid #F34D4D;
+    color: #F34D4D;
+}
+
+.copy-right {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.copy-right p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8e8e8e;
+}
+
+.copy-right a {
+    color: #cecece;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    font-style: italic;
+}
+
+.copy-right a:hover {
+    color: #F34D4D;
+}
+
+/*
+=======================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+    foooter section end here
+////////////////////////////////////
+=======================================
+*/
+
+
+
+
+
+
+/*
+=====================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=====================================
+mobile responsive section start here
+=====================================
+/////////////////////////////////////
+=====================================
+*/
+
+@media (max-width:600px) {
+    .nav>.nav-btn {
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .nav {
+        height: 50px;
+        width: 100%;
+        background-color: #000000;
+        position: relative;
+        padding-left: 5px;
+        padding-right: 10px;
+    }
+    .nav>.nav-btn>label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+    }
+
+    .nav>.nav-btn>label:hover,
+    .nav #nav-check:checked~.nav-btn>label {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .nav>.nav-btn>label>span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+    }
+
+    .nav>.nav-links {
+        position: absolute;
+        display: block;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        height: 0px;
+        transition: all 0.3s ease-in;
+        overflow-y: hidden;
+        top: 50px;
+        left: 0px;
+        text-align: center;
+    }
+
+    .nav>.nav-links>a {
+        display: block;
+        width: 100%;
+    }
+
+    .nav>#nav-check:not(:checked)~.nav-links {
+        height: 0px;
+    }
+
+    .nav>#nav-check:checked~.nav-links {
+        height: calc(100vh - 50px);
+        overflow-y: auto;
+    }
+
+    .about-hero {
+        background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, .5)), url('../img/photo-gallary/img-7.jpg');
+        background-position-x: 0%, 0%;
+        background-position-y: 0%, 0%;
+        background-repeat: repeat, repeat;
+        background-size: auto, auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: none;
+        background-size: cover;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .information-container {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: #FAFAFA;
+    }
+
+    .contact-information {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        margin-top: 20px;
+        row-gap: 20px;
+        flex-direction: column;
+    }
+
+    .contact-us {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 320px !important;
+        width: 600px !important;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 300px !important;
+        width: 365px !important;
+    }
+
+    .form-btn input {
+        width: 55%;
+        background: #F34D4D;
+        border: 1px solid #F34D4D;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        transition: all 0.5s linear;
+    }
+
+    .footer-container {
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 20px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .instagram {
+        flex: 1;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .copy-right {
+        text-align: center;
+        padding-bottom: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .footer-container h3 {
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .footer-brand p {
+        margin-bottom: 10px;
+        padding-right: 20px;
+    }
+
+    .footer-icon i {
+        font-size: 20px;
+        background: #201F1F;
+        color: #fff;
+        margin-right: 5px;
+        padding: 8px 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+}
